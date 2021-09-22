@@ -25,7 +25,6 @@ body .container #q {
   width: 100vw;
   height: 100vh;
   scroll-snap-align: start;
-  /* Animation */
 }
 
 body .container #q:nth-of-type(1) {
@@ -56,66 +55,5 @@ body .container #q #list {
 body .container #q ul {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.4em;
-}
-
-body .container #q .line-1 {
-  position: flex;
-  top: 80%;
-  left: 44%;
-  width: 24em;
-  margin: 0 auto;
-  border-right: 2px solid rgba(255, 255, 255, 0.75);
-  font-size: 100%;
-  text-align: left;
-  white-space: nowrap;
-  font-family: Arial, Helvetica, sans-serif;
-  overflow: hidden;
-  -webkit-transform: translateY(-80%);
-          transform: translateY(-80%);
-}
-
-body .container #q .anim-typewriter {
-  -webkit-animation: typewriter 3s steps(30) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
-          animation: typewriter 3s steps(30) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
-}
-
-@-webkit-keyframes typewriter {
-  from {
-    width: 0;
-  }
-  to {
-    width: 7.5em;
-  }
-}
-
-@keyframes typewriter {
-  from {
-    width: 0;
-  }
-  to {
-    width: 7.5em;
-  }
-}
-
-@-webkit-keyframes blinkTextCursor {
-  from {
-    border-right-color: rgba(255, 255, 255, 0.75);
-  }
-  to {
-    border-right-color: transparent;
-  }
-}
-
-@keyframes blinkTextCursor {
-  from {
-    border-right-color: rgba(255, 255, 255, 0.75);
-  }
-  to {
-    border-right-color: transparent;
-  }
-}
-
-body .container #q h2 {
-  border-left: 50px;
 }
 /*# sourceMappingURL=style.css.map */
