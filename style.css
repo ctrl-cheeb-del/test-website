@@ -58,4 +58,12 @@ body .container #q ul, body .container #q ol {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 0.4em;
 }
+
+body .container #q img {
+  border-radius: 100%;
+  width: 30%;
+  height: relative;
+  margin-left: -250px;
+  margin-top: -300px;
+}
 /*# sourceMappingURL=style.css.map */
