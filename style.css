@@ -10,6 +10,7 @@ body .container {
   -ms-scroll-snap-type: y mandatory;
       scroll-snap-type: y mandatory;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 body .container #q {
