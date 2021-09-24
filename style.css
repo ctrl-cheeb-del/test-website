@@ -60,10 +60,9 @@ body .container #q ul, body .container #q ol {
 }
 
 body .container #q img {
-  border-radius: 100%;
   width: 30%;
   height: relative;
-  margin-left: -250px;
-  margin-top: -300px;
+  margin-left: -20%;
+  margin-top: -20%;
 }
 /*# sourceMappingURL=style.css.map */
